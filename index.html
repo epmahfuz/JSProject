@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 style="text-align: center;">Employee Salary Sheet</h2>
+    <p style="text-align: center;">The following form receives employee data and shows the list, allows you to update & delete employee from the list in right side.</p>
+    <table class="maintable">
+        <tr>
+            <td class="block1">
+                <form action="" onsubmit="event.preventDefault(); onFormSubmit();" autocomplete="off">
+                    <div>
+                        <label class="labeltxt" for="fullname">Full Name:</label>
+                        <input id="fullname" class="inputtxt" type="text" mame="fullname">
+                    </div>
+                    <div>
+                        <label class="labeltxt" for="empcode">EMP Code:</label>
+                        <input id="empcode"  class="inputtxt" type="text" name="empcode">
+                    </div>
+                    <div>
+                        <label class="labeltxt" for="salary">Salary:</label>
+                        <input id="salary" class="inputtxt" type="number" name="salary">
+                    </div>
+                    <div>
+                        <label class="labeltxt" for="city">City:</label>
+                        <input id="city" class="inputtxt" type="text" name="city">
+                    </div>
+                    <div class="form-action-button">
+                        <input id="submit" class="submit" type="submit" value="Submit">
+                    </div>
+                </form>
+            </td>
+            <td class="block2">
+                <table id="employeeList">
+                    <thead>
+                        <tr>
+                            <th>Full Name</th>
+                            <th>EMP Code</th>
+                            <th>Salary</th>
+                            <th>City</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    
+      
+    <script src="script.js"></script>
+</body>
+</html>

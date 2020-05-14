@@ -1,0 +1,61 @@
+body{
+    margin: 0 auto;
+    padding: 0 0;
+}
+.maintable{
+    margin: 20px 50px;
+    width: 90%;
+}
+.block1, .block2{
+    border: 2px solid #ddd;
+    padding: 20px;
+}
+.block1{
+    width: 40%;
+}
+.block2{
+    width: 60%;
+    
+}
+.inputtxt{
+    height: calc(1.5em + .75rem + 2px);
+    border-radius: .25rem;
+    width: 97%;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    padding-left: 6px;
+
+}
+.labeltxt{
+    display: block;
+    padding: 4px 2px;
+}
+.submit{
+    height: calc(1.5em + .75rem + 2px);
+    border-radius: .25rem;
+    float: right;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    padding: 1px 6px;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 13px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  table td, table td * {
+    vertical-align: top;
+}
